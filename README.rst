@@ -1,5 +1,5 @@
 #####################
-Top.gg Python Library - Cookie's Fork
+Top.gg Python Library - C's Fork
 #####################
 
 .. image:: https://img.shields.io/pypi/v/topggpy.svg
