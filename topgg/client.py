@@ -171,7 +171,7 @@ class DBLClient:
     @property
     def guild_count(self) -> int:
         """Gets the guild count from the provided Client object."""
-        return self.bot.gcount
+        return self.gcount
 
     async def get_weekend_status(self) -> bool:
         """This function is a coroutine.
