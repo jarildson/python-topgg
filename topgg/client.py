@@ -85,12 +85,14 @@ class DBLClient:
         self,
         bot: discord.Client,
         token: str,
+        gcount: int,
         autopost: bool = False,
         post_shard_count: bool = False,
         autopost_interval: Optional[float] = None,
         **kwargs: Any,
     ) -> None:
         self.bot = bot
+        self.gcount = gcount
         self.loop = bot.loop
         self.autopost = autopost
         self.post_shard_count = post_shard_count
@@ -169,7 +171,7 @@ class DBLClient:
     @property
     def guild_count(self) -> int:
         """Gets the guild count from the provided Client object."""
-        return 32
+        return self.bot.gcount
 
     async def get_weekend_status(self) -> bool:
         """This function is a coroutine.
