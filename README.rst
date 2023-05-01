@@ -1,5 +1,5 @@
 #####################
-Top.gg Python Library
+Top.gg Python Library - Cookie's Fork
 #####################
 
 .. image:: https://img.shields.io/pypi/v/topggpy.svg
@@ -27,7 +27,7 @@ Install from source
 
 .. code:: bash
 
-    pip3 install git+https://github.com/top-gg/python-sdk/
+    pip3 install git+https://github.com/jarildson/python-topgg
 
 Documentation
 -------------
